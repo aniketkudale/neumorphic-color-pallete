@@ -24,10 +24,11 @@ for (let i = 0; i < americanHandler.length; i++) {
     copyToast.innerText = "Copied!";
     copyToast.innerText = hexValue + " " + copyToast.innerText;
     copyToClipboard(hexValue);
+    copyToast.style.backgroundColor = hexValue;
+    document.getElementById("copy").play();
     setTimeout(function() {
       copyToast.classList.toggle("show");
-    }, 1000);
-    document.getElementById("copy").play();
+    }, 2000);    
   });
   aussieHandler[i].addEventListener("click", function(e) {
     var rgbValues = window
@@ -38,10 +39,11 @@ for (let i = 0; i < americanHandler.length; i++) {
     copyToast.innerText = "Copied!";
     copyToast.innerText = hexValue + " " + copyToast.innerText;
     copyToClipboard(hexValue);
+    copyToast.style.backgroundColor = hexValue;
+    document.getElementById("copy").play();
     setTimeout(function() {
       copyToast.classList.toggle("show");
-    }, 1000);
-    document.getElementById("copy").play();
+    }, 2000);   
   });
   britishHandler[i].addEventListener("click", function(e) {
     var rgbValues = window
@@ -52,10 +54,11 @@ for (let i = 0; i < americanHandler.length; i++) {
     copyToast.innerText = "Copied!";
     copyToast.innerText = hexValue + " " + copyToast.innerText;
     copyToClipboard(hexValue);
+    copyToast.style.backgroundColor = hexValue;
+    document.getElementById("copy").play();
     setTimeout(function() {
       copyToast.classList.toggle("show");
-    }, 1000);
-    document.getElementById("copy").play();
+    }, 2000);   
   });
   canadianHandler[i].addEventListener("click", function(e) {
     var rgbValues = window
@@ -66,10 +69,11 @@ for (let i = 0; i < americanHandler.length; i++) {
     copyToast.innerText = "Copied!";
     copyToast.innerText = hexValue + " " + copyToast.innerText;
     copyToClipboard(hexValue);
+    copyToast.style.backgroundColor = hexValue;
+    document.getElementById("copy").play();
     setTimeout(function() {
       copyToast.classList.toggle("show");
-    }, 1000);
-    document.getElementById("copy").play();
+    }, 2000);   
   });
   chineseHandler[i].addEventListener("click", function(e) {
     var rgbValues = window
@@ -80,10 +84,11 @@ for (let i = 0; i < americanHandler.length; i++) {
     copyToast.innerText = "Copied!";
     copyToast.innerText = hexValue + " " + copyToast.innerText;
     copyToClipboard(hexValue);
+    copyToast.style.backgroundColor = hexValue;
+    document.getElementById("copy").play();
     setTimeout(function() {
       copyToast.classList.toggle("show");
-    }, 1000);
-    document.getElementById("copy").play();
+    }, 2000);   
   });
   dutchHandler[i].addEventListener("click", function(e) {
     var rgbValues = window
@@ -94,10 +99,11 @@ for (let i = 0; i < americanHandler.length; i++) {
     copyToast.innerText = "Copied!";
     copyToast.innerText = hexValue + " " + copyToast.innerText;
     copyToClipboard(hexValue);
+    copyToast.style.backgroundColor = hexValue;
+    document.getElementById("copy").play();
     setTimeout(function() {
       copyToast.classList.toggle("show");
-    }, 1000);
-    document.getElementById("copy").play();
+    }, 2000);   
   });
   frenchHandler[i].addEventListener("click", function(e) {
     var rgbValues = window
@@ -108,10 +114,11 @@ for (let i = 0; i < americanHandler.length; i++) {
     copyToast.innerText = "Copied!";
     copyToast.innerText = hexValue + " " + copyToast.innerText;
     copyToClipboard(hexValue);
+    copyToast.style.backgroundColor = hexValue;
+    document.getElementById("copy").play();
     setTimeout(function() {
       copyToast.classList.toggle("show");
-    }, 1000);
-    document.getElementById("copy").play();
+    }, 2000);   
   });
   germanHandler[i].addEventListener("click", function(e) {
     var rgbValues = window
@@ -122,10 +129,11 @@ for (let i = 0; i < americanHandler.length; i++) {
     copyToast.innerText = "Copied!";
     copyToast.innerText = hexValue + " " + copyToast.innerText;
     copyToClipboard(hexValue);
+    copyToast.style.backgroundColor = hexValue;
+    document.getElementById("copy").play();
     setTimeout(function() {
       copyToast.classList.toggle("show");
-    }, 1000);
-    document.getElementById("copy").play();
+    }, 2000);   
   });
   indianHandler[i].addEventListener("click", function(e) {
     var rgbValues = window
@@ -136,10 +144,11 @@ for (let i = 0; i < americanHandler.length; i++) {
     copyToast.innerText = "Copied!";
     copyToast.innerText = hexValue + " " + copyToast.innerText;
     copyToClipboard(hexValue);
+    copyToast.style.backgroundColor = hexValue;
+    document.getElementById("copy").play();
     setTimeout(function() {
       copyToast.classList.toggle("show");
-    }, 1000);
-    document.getElementById("copy").play();
+    }, 2000);   
   });
   russianHandler[i].addEventListener("click", function(e) {
     var rgbValues = window
@@ -150,10 +159,11 @@ for (let i = 0; i < americanHandler.length; i++) {
     copyToast.innerText = "Copied!";
     copyToast.innerText = hexValue + " " + copyToast.innerText;
     copyToClipboard(hexValue);
+    copyToast.style.backgroundColor = hexValue;
+    document.getElementById("copy").play();
     setTimeout(function() {
       copyToast.classList.toggle("show");
-    }, 1000);
-    document.getElementById("copy").play();
+    }, 2000);   
   });
   spanishHandler[i].addEventListener("click", function(e) {
     var rgbValues = window
@@ -164,10 +174,11 @@ for (let i = 0; i < americanHandler.length; i++) {
     copyToast.innerText = "Copied!";
     copyToast.innerText = hexValue + " " + copyToast.innerText;
     copyToClipboard(hexValue);
+    copyToast.style.backgroundColor = hexValue;
+    document.getElementById("copy").play();
     setTimeout(function() {
       copyToast.classList.toggle("show");
-    }, 1000);
-    document.getElementById("copy").play();
+    }, 2000);   
   });
   swedishHandler[i].addEventListener("click", function(e) {
     var rgbValues = window
@@ -178,10 +189,11 @@ for (let i = 0; i < americanHandler.length; i++) {
     copyToast.innerText = "Copied!";
     copyToast.innerText = hexValue + " " + copyToast.innerText;
     copyToClipboard(hexValue);
+    copyToast.style.backgroundColor = hexValue;
+    document.getElementById("copy").play();
     setTimeout(function() {
       copyToast.classList.toggle("show");
-    }, 1000);
-    document.getElementById("copy").play();
+    }, 2000);   
   });
   turkishHandler[i].addEventListener("click", function(e) {
     var rgbValues = window
@@ -192,10 +204,11 @@ for (let i = 0; i < americanHandler.length; i++) {
     copyToast.innerText = "Copied!";
     copyToast.innerText = hexValue + " " + copyToast.innerText;
     copyToClipboard(hexValue);
+    copyToast.style.backgroundColor = hexValue;
+    document.getElementById("copy").play();
     setTimeout(function() {
       copyToast.classList.toggle("show");
-    }, 1000);
-    document.getElementById("copy").play();
+    }, 2000);   
   });
 }
 
